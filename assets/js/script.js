@@ -32,7 +32,7 @@ $('document').ready(function() {
     //creates time stamp
     function formatAMPM(hours) {
         var ampm = hours >= 12 ? 'pm' : 'am';
-        hours = hours % 12;
+        hours = hours % 12; 
         hours = hours ? hours : 12;
         return hours + ampm;
     }
@@ -59,6 +59,7 @@ $('.saveBtn').on('click', function() {
     //saves task to local storage
     localStorage.setItem(currentSelction, textInput);
     console.log("save")
+    localStorage.getItem(`${i}`);
 });
 });
 
