@@ -1,4 +1,5 @@
 var now = moment();
+var i = 9
 
 $("#currentDay").text(moment().format('dddd MMMM Do YYYY,h:mm a'));
 
@@ -22,7 +23,7 @@ $('document').ready(function() {
         //Event
         var task = $(`<div class="col-sm-9 ${indication(i, now.hour())}"><div><label for="formControlTextarea"></label><textarea class="form-control" id="${i}-formControlTextarea" rows="3"></textarea></div>`);
 
-        var save = $(`<div class="col-sm-1"><button id=${i} class="saveBtn"><i class="fas fa-lock"></i></button></div>`);
+        var save = $(`<div class="col-sm-1 bg-primary"><button id=${i} class="saveBtn"><i class="fas fa-lock"></i></button></div>`);
         
 
         

@@ -63,3 +63,8 @@ https://github.com/chl850405/work-day-scheduler.git
 Deployed URL
 
 https://chl850405.github.io/work-day-scheduler/
+
+
+just upload the .gif file into your base folder of GitHub and edit README.md just use this code
+
+![](./assets/gif/workday-scheduler.gif)
